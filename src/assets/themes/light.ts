@@ -16,8 +16,8 @@ const light: ITheme = {
   },
 
   border: {
-    main: '#cfcfcf',
-    hover: '#a2a2a2'
+    100: '#cfcfcf',
+    200: '#a2a2a2'
   },
 
   shadow: {
@@ -25,6 +25,7 @@ const light: ITheme = {
   },
 
   typography: {
+    family: "'Poppins', sans-serif",
     primary: '#000',
     secondary: 'rgba(0, 0, 0, 0.87)',
     disabled: 'rgba(0, 0, 0, 0.38)'

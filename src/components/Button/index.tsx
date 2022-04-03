@@ -21,7 +21,7 @@ export default styled(Button)`
   border-radius: 4px;
   font-size: 14px;
   color: white;
-  font-family: 'Poppins';
+  font-family: ${({ theme }) => theme.typography.family};
   font-weight: 500;
   cursor: pointer;
   transition: 0.2s linear;

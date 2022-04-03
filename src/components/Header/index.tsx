@@ -4,7 +4,7 @@ import IStylesProps from 'interface/styles';
 function Header({ className }: IStylesProps) {
   return (
     <div className={className}>
-      <h1>Houston</h1>
+      <h1>Theme</h1>
 
       <p>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eaque dolores, sunt accusantium earum quas

@@ -13,9 +13,19 @@ interface ITheme {
     element: string;
   };
 
+  /*
+    Another example:
+
+    background: {
+      100: x
+      200: x
+      300: x
+    }
+  */
+
   border: {
-    main: string;
-    hover: string;
+    100: string;
+    200: string;
   };
 
   shadow: {
@@ -23,6 +33,7 @@ interface ITheme {
   };
 
   typography: {
+    family: string;
     primary: string;
     secondary: string;
     disabled: string;

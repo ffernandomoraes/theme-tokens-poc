@@ -18,7 +18,7 @@ function Alert({ className, variant = 'info' }: IAlertProps) {
   );
 }
 
-export default styled(Alert)`
+export default styled(Alert, { label: 'alert' })`
   padding: 15px 20px;
   border-radius: 4px;
   font-size: 14px;
@@ -33,17 +33,17 @@ export default styled(Alert)`
   }
 
   &.--info {
-    background: #1769aa;
+    background: #3e8dcb;
     color: white;
   }
 
   &.--error {
-    background: #b2102f;
+    background: #af2b44;
     color: white;
   }
 
   &.--success {
-    background: #00a152;
+    background: #28ab6b;
     color: white;
   }
 `;

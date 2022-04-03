@@ -16,8 +16,8 @@ const dark: ITheme = {
   },
 
   border: {
-    main: '#535353',
-    hover: '#8b8b8b'
+    100: '#535353',
+    200: '#8b8b8b'
   },
 
   shadow: {
@@ -25,6 +25,7 @@ const dark: ITheme = {
   },
 
   typography: {
+    family: "'Poppins', sans-serif",
     primary: '#fff',
     secondary: 'rgba(255, 255, 255, 0.7)',
     disabled: 'rgba(255, 255, 255, 0.5)'

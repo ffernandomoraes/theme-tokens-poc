@@ -29,14 +29,14 @@ export default styled(Input)`
     height: 40px;
     border-radius: 4px;
     color: ${({ theme }) => theme.typography.secondary};
-    border: 1px solid ${({ theme }) => theme.border.main};
+    border: 1px solid ${({ theme }) => theme.border[100]};
     background-color: ${({ theme }) => theme.paper.element};
-    font-family: 'Poppins';
+    font-family: ${({ theme }) => theme.typography.family};
     padding: 4px 10px;
 
     &:focus {
       outline: none;
-      border-color: ${({ theme }) => theme.border.hover};
+      border-color: ${({ theme }) => theme.border[200]};
     }
   }
 `;
