@@ -4,6 +4,7 @@ import Button from 'components/Button';
 import Card from 'components/Card';
 import Header from 'components/Header';
 import Input from 'components/Input';
+import ThemeTokens from 'components/ThemeTokens';
 import IStylesProps from 'interface/styles';
 import styles from 'pages/styles';
 
@@ -30,6 +31,12 @@ function LightPreview({ className }: IStylesProps) {
       <Alert />
       <Alert variant='error' />
       <Alert variant='success' />
+
+      <br />
+
+      <Card>
+        <ThemeTokens />
+      </Card>
     </div>
   );
 }
